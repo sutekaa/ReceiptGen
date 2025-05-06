@@ -79,5 +79,4 @@ def send_receipt_email(recipient_email, image_path):\
         text = msg.as_string()\
         server.sendmail(EMAIL_ADDRESS, recipient_email, text)\
 \
-bot.run(MTM2OTQwODIyMzU3NjE5NTA5Mw.GSxwxa.6ECHHe2q3QcE1Fa7f7Vo5u227IWVVBWi4mifDw)\
 }
